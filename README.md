@@ -86,7 +86,7 @@ The result is displayed live every second, and the final RPM after 60 seconds is
 _You can add a hand-drawn or Fritzing-style wiring diagram here._
 
 ```markdown
-![Circuit Diagram](circuit-diagram.png)
+![Circuit Diagram](Circuit-diagram.png)
 ```
 
 ---
