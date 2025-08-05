@@ -81,13 +81,14 @@ The result is displayed live every second, and the final RPM after 60 seconds is
 
 ---
 
-## 📷 Circuit Diagram
+## 📷 Project Photo
 
-_You can add a hand-drawn or Fritzing-style wiring diagram here._
+![Project Photo](project-image.jpg)
 
-```markdown
+## 🧩 Circuit Diagram
+
 ![Circuit Diagram](Circuit-diagram.png)
-```
+
 
 ---
 
