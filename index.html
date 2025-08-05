@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arduino RPM Counter</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #007acc;
+    }
+    .image {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .image img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arduino RPM Counter Project</h1>
+    <p>Measure Rotations Per Minute with Arduino + IR Sensor + LCD</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This project is a digital tachometer using an Arduino Uno, IR sensor, and I2C LCD. It detects object rotations and displays the RPM in real-time.</p>
+    </section>
+
+    <div class="image">
+      <img src="project-photo.jpg" alt="Arduino RPM Counter Setup">
+    </div>
+
+    <section>
+      <h2>Components Used</h2>
+      <ul>
+        <li>Arduino Uno</li>
+        <li>IR Sensor</li>
+        <li>I2C 16x2 LCD</li>
+        <li>Jumper Wires</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <p>The IR sensor detects each rotation via a reflective tape. Arduino counts these pulses for 1 minute and calculates RPM. Results are shown on the LCD and serial monitor.</p>
+    </section>
+
+    <section>
+      <h2>Output Example</h2>
+      <p><strong>LCD Display:</strong> Final RPM: 120</p>
+      <p><strong>Serial Monitor:</strong> Rotations: 2, 5, 9... Final RPM: 120</p>
+    </section>
+
+    <section>
+      <h2>Applications</h2>
+      <p>This RPM counter can be used in automotive engines, robotics, industrial motors, and educational labs.</p>
+    </section>
+  </main>
+
+  <footer>
+   | Created by Jeania Panwar & Team | 
+  </footer>
+</body>
+</html>
